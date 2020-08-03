@@ -71,7 +71,6 @@ public class CookieInventoryFile extends ArrayList<CookieInventoryItem> {
         CookieInventoryItem i = new CookieInventoryItem();
 
         try {
-            //FileWriter fw = new FileWriter(file, true);
             PrintWriter pr = new PrintWriter(file);
             for (int f = 0; f < super.size(); f++) {
 

@@ -8,14 +8,11 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 /**
- *
+ * 
  * @author Altaher Al-Dulaimi
  */
 public class Assign5 extends Application {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
 
         launch();
