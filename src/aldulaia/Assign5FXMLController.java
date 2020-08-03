@@ -163,8 +163,7 @@ public class Assign5FXMLController implements Initializable {
                             alert.setTitle("Data Entry Error");
                             alert.setHeaderText("Soory, not enough " + name + " Cookies available to sell ");
                             alert.showAndWait();
-                            //  System.out.println("last else");
-//                    break;
+
                         }
                         if (insideWhileCheck && checkInsideLastIf && lastElse) {
                             String name = "";
