@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane prefHeight="145.0" prefWidth="320.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aldulaia.Assign5FXMLController">
+    
+        <fx:define>
+        <Insets fx:id="align1" top="2" bottom="0" right="10" left="29" />
+        <Insets fx:id="align2" top="7" bottom="4" right="4" left="4" />
+        <Insets fx:id="align3" top="2" bottom="0" right="0" left="9" />
+        <Insets fx:id="align4" top="4" bottom="0" right="0" left="0" />
+        <Insets fx:id="align5" top="0" bottom="2" right="4" left="0" />
+        <Insets fx:id="align6" top="0" bottom="2" right="0" left="3" />
+        </fx:define>
+    
+    
+    <top>
+        <HBox>
+            <Label fx:id="lbl1" text="Select Cookie: " HBox.margin="$align2"/>
+            <ComboBox fx:id="cmbCookies" editable="false"  prefWidth="180" HBox.margin="$align4"/>
+        </HBox>
+    </top>
+    
+    
+    
+    
+    <center>
+        <GridPane>
+            <BorderPane >
+                
+                <left >
+                    <VBox >
+                    <Label fx:id="lbl2" text="Enter Quantity Sold: "  VBox.margin="$align3"/>
+                    <TextField fx:id="txt1"  VBox.margin="$align3"/>
+                    <Button fx:id="btnSell" text="_Sell" mnemonicParsing="true" maxWidth="Infinity"  VBox.margin="$align3"/>
+                    </VBox>
+                </left>
+                <right>
+                    <VBox >
+                    <Label fx:id="lbl3" text="Enter Quantity Baked: " VBox.margin="$align1"/>
+                    <TextField fx:id="txt2" VBox.margin="$align1"/>
+                    <Button fx:id="btnAdd" text="_Add" mnemonicParsing="true" maxWidth="Infinity" VBox.margin="$align1"/>
+                    </VBox>
+                </right>
+                
+                </BorderPane>
+        </GridPane>
+  </center>
+    
+    
+    
+    
+    <bottom>
+        
+         <BorderPane>
+             <right>
+            <HBox>
+            <Button fx:id="btnExit" text="E_XIT" mnemonicParsing="true" HBox.margin="$align5"/>
+            </HBox>
+             </right>
+             <left>
+            <HBox>
+               <Button fx:id="btnPrint" text="_PRINT" mnemonicParsing="true" HBox.margin="$align6"/>            
+            </HBox>
+             </left>
+         </BorderPane>
+       
+    </bottom>
+</BorderPane>
